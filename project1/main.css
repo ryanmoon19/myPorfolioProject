@@ -1,0 +1,38 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+.navbar {
+    width: 80%;
+    margin: auto;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    width: 90%
+}
+
+.navbar ul {
+    list-style-type: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    display: inline-block;
+    margin-left: auto;
+}
+
+nav a{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#namePlate{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+

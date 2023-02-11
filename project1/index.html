@@ -1,31 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
-    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="portfolio.js"></script>  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
+    </script>
     <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <header>
-        <div class="image-logo">
-            <img src = "https://imgur.com/a/c85uHfP.jpg">
+    <div class = "navbar">
+        <nav>
+            <ul>
+                <li><a href = "#">Home</a></li>
+                <li><a href = "#">About</a></li>
+                <li><a href = "#">Resume</a></li>
+                <li><a href = "#">Portfolio</a></li>
+                <li><a href = "#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id = "namePlate">
+        <h1>Ryan Moon</h1>
+        <h3>Software Engineer Student</h3>
+    </div>
+
+    <div id = "aboutMeContainer">
+        <h1>About Me</h1>
+    </div>
+
+    <div id = "aboutMePhotoContainer">
+        <img src="">
+    </div>
+
+    <div id="aboutMeTextContainer">
+        <h4>Hello, name is Ryan Moon. I am a software engineering student. I currently live in Los Angeles, CA. I have always embraced new challenges and with the growth in the field of technology, software engineering was another challenge that I wanted to overcome. I am excited to see how far I can go in this field!</h4>
+    </div>
+
+    <div id="resumeContainer">
+        <div id="resumeHeader">
+            <h1>Resume</h1>
         </div>
-        <ul>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </header>
 
-    <section class="about">
-        <h1 class="section-intro">Hello</h1>
-    </section>
+        <div class="resumeFields">
+            <div id="education">
+                <h3>Education</h3>
+                <h4>Univeristy of California, Riverside</h4>
+                <h5>Riverside, CA | 2017-2021</h5>
+                <h5>Bachelor of Arts, History</h5>
+                <h4>Los Angeles Center for Enriched Studies</h4>
+                <h5>Los Angeles, CA | 2013-2017</h5>
+                <h5>High School Diploma</h5>
+            </div>
 
+            <div id="experience">
+                <h3>UCR KCM</h3>
+                <h4>Riverside, CA | President</h4>
+                <ul>
+                    <li>President of UCR Kristos Campus Missions</li>
+                    <li>Led a group of 9 cabinet members in organizing and running events for over 100 club members</li>
+                    <li>Assisted in maintaining finances for the club</li>
+                    <li>Oversaw 7 committees that helped in organizing different events</li>
+                </ul>
+            </div>
+
+            <div id="workHistory">
+                <h3>Work History</h3>
+                <h4>Law Offices of Edward Y. Lee</h4>
+                <h5>Legal Assitant | 2021-2022</h5>
+                <ul>
+                    <li>Assisted attorney in filing and opening claims/cases</li>
+                    <li>Drafted legal documents for attorney</li>
+                    <li>Assisted in helping and maintaing clients cases</li>
+                </ul>
+                <h4>Sand Canyon Country Club</h4>
+                <h5>Golf Pro Shop Assistant</h5>
+                <ul>
+                    <li>Maintained tee-times and provided customer service to all customers and members of the country club</li>
+                    <li>Assisted manager with sales operations, including merchandising and inventory</li>
+                    <li>Designed marketing ads/signs for golf shop merchandise</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolioContainer">
+        <div id="portfolioHeader">
+            <h1>Portfolio</h1>
+        </div>
+
+        <div id="projectContainer1"></div>
+        <div id="projectContainer2"></div>
+        <div id="projectContainer3"></div>
+        <div id="projectContainer4"></div>
+    </div>
+
+    <div id="contactContainer">
+        <div id="contactHeader">
+            <h1>Contact</h1>
+        </div>
+
+        <div id="socialMediaContainer">
+            <div class="socialMediaLogo">
+                
+            </div>
+        </div>
+    </div>
   </body>
 </html>
