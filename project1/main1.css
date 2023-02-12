@@ -3,7 +3,7 @@
 .navbar {
     width: 80%;
     margin: auto;
-
+    
 }
 
 nav {
@@ -38,7 +38,7 @@ nav a{
     height: 400px
 }
 
-#namePlate h1, h3{
+#namePlate{
     display: flex;
 
     color: white;
@@ -63,7 +63,12 @@ nav a{
 
 .aboutmephoto{
     display: flex;
-    height: px;
+    height: 300px;
+    margin: px 0px 0px 0px;
+    border: 5px solid gray;
+    border-radius: px;
+    width:fit-content;
+    height: px
 }
 
 #resumeContainer{
@@ -71,7 +76,7 @@ nav a{
     flex-direction: column;
 }
 
-#resumeHeader, h1{
+#resumeHeader{
     text-align: center;
     color: gray
 }
@@ -80,12 +85,25 @@ nav a{
     display: flex;
     flex-direction: column;
     margin: 40px 0px 0px 0px;
-    border: 7px solid gray;
-    border-radius: 30px;
-    width:fit-content;
+    border: 3px solid white;
+    border-radius: 3px;
+
     height: px;
 }
 
-#porfolioContainer{
+#contactContainer{
+    display: flex;
+
+}
+
+.socialMediaLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 50px;
     
 }
+
