@@ -14,7 +14,6 @@ nav {
 }
 
 .navbar ul {
-    list-style-type: none;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -28,11 +27,65 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
 }
+
 #namePlate{
+    background-image: url("https://swall.teahub.io/photos/small/234-2342998_simple-powerpoint-background-images-architecture.jpg");
+    background-size: cover;
     font-family: 'Quicksand', sans-serif;
     display: flex;
     flex-direction: column;
-    width: 80%;
-    
+    width: 100%;
+    height: 400px
 }
 
+#namePlate h1, h3{
+    display: flex;
+
+    color: white;
+}
+
+#aboutMeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    color: gray
+}
+
+#aboutMeInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    float: left;
+}
+
+.aboutmephoto{
+    display: flex;
+    height: px;
+}
+
+#resumeContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#resumeHeader, h1{
+    text-align: center;
+    color: gray
+}
+
+.resumeFields{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 0px 0px;
+    border: 7px solid gray;
+    border-radius: 30px;
+    width:fit-content;
+    height: px;
+}
+
+#porfolioContainer{
+    
+}
