@@ -12,6 +12,25 @@ header{
   background-color: lightblue;
   height: 110px;
 }
+.nav-link{
+  transition: 0.7s;
+}
+.nav-link:hover{
+  color:red;
+}
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
 .nav-bar ul{
   display: flex;
   justify-content: space-evenly;
@@ -177,4 +196,31 @@ form input, form textarea{
 }
 .show_content h3, p{
   opacity: 1;
+}
+
+
+@media(max-width: 768px){
+  .hamburger{
+    display: block;
+  } 
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    transition: 0.4s;
+  }
+
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
 }
