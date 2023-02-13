@@ -11,4 +11,6 @@ $(() => {
     $hamburgermenu.classList.remove('active');
     $navmenu.classList.remove('active');
   }))
+
+  
 })
