@@ -12,35 +12,39 @@
 </head>
 
 <body>
-<div id="header">
-    <div class="container">
-        <nav>
+<div class="header">
+    <div class="topbar">
+        <nav id="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                 <li><a href="#">Resume</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                 <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="header_text">
-            <p>Software Engineer Student</p>
-            <h1>Welcome, <br> I'm Ryan Moon.</h1>
+            <h2>Ryan Moon</h2>
         </div>
     </div>
+    <div class="welcome_header">
+        <h1>Welcome!</h1>
+        <p>Currently a student at General Assembly and an aspiring Software engineer</p>
+    </div>
+</div>
 </div>
 
 <!-- about me section -->
 <div>
     <div id="about">
         <div class="container">
-            <div id="about_row">
+            <div class="row">
                 <div id="about_img_column">
-                    <img src="profilephoto.jpg" alt="">
+                    <img src="images/profilephoto.jpg" alt="">
                 </div>
                 <div id="about_info_column">
                     <h1 id="about_title">About Me</h1>
-                    <p>Hello, name is Ryan Moon. I am a software engineering student. I currently live in Los Angeles, CA. After graduating college, I decided that I did not want to pursue Law School and wanted to challenge myself in a field that I had no experience in. I had always been interested in tech but was always intimidated by it. So when the opportunity came to learn, I decided to go for it. I'm excited to see where this journey will take me!</p>
+                    <p>Hello, name is Ryan Moon. I am a software engineering student. I currently live in Los Angeles, CA. After graduating college, I decided that I did not want to pursue law school and wanted to challenge myself in a field that I had no experience in. I had always been interested in tech but was always intimidated by it. So when the opportunity came to learn, I decided to go for it. I'm excited to see where this journey will take me!</p>
                 </div>    
             </div>
         </div>
@@ -50,8 +54,8 @@
 <!-- resume section -->
 <div id="resume">
     <div class="container">
-        <h1 id="resume_header">Resume</h1>
-        <div id="resume_row">
+        <h1 class="resume_header">Resume</h1>
+        <div class="resume_row">
             <div id="education_column">
                 <h2 id="education_header">Education</h2>
                 <h3>Univeristy of California, Riverside | 2017-2021</h3>
@@ -86,7 +90,8 @@
                 </ul>
             </div>
         </div>
-        <p id="resume_link"><a href="resume.pdf"></a>link to printable resume</p>
+        <br>
+        <a href="images/resume.pdf" class="resume_btn">link to printable resume</a>
     </div>
 </div>
 
@@ -96,19 +101,19 @@
         <h1 id="portfolio_header">Portfolio</h1>
         <div id="portfolio_list">
             <div id="project1">
-                <img src="codingpicture.jpg">
+                <a href="#"><img src="images/codingpicture.jpg"></a>
                 <div class="project_description">
                     <h3>Project 1</h3>
                 </div>
             </div>
             <div id="project2">
-                <img src="codingpicture.jpg">
+                <a href="#"><img src="images/codingpicture.jpg"></a>                
                 <div class="project_description">
                     <h3>Project 2</h3>
                 </div>
             </div>
             <div id="project3">
-                <img src="codingpicture.jpg">
+                <a href="#"><img src="images/codingpicture.jpg"></a>
                 <div class="project_description">
                     <h3>Project 3</h3>
                 </div>
@@ -119,9 +124,23 @@
 
 <!-- contact section -->
 <div id="contact">
-    <div class="container">
-        <div id="contact_row">
-            contact
+        <div id="contact_box">
+            <h2 id="contact_title">Contact Me</h2>
+            <p>ryanhmoon11@gmail.com</p>
+            <p>213.393.5399</p>
+            <div id="social_media">
+                <a href="https://www.facebook.com/"><img src="images/facebooklogo.png"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagramlogo.png"></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedinlogo.png"></a>
+            </div>
+        </div>
+        <div id="email_box">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name">
+                <input type="email" name="Email" placeholder="Your Email">
+                <textarea name="Message" rows="5" placeholder="Message"></textarea>
+                <button type="submit" class="btn2">submit</button>
+            </form>
         </div>
     </div>
 </div>
