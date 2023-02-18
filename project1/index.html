@@ -14,17 +14,18 @@
         <!-- header -->
         <header>
             <div class="hamburgerNav">
-                <img src="images/galogo.png">
+                <!-- <img src="images/galogo.png"> -->
                 <a href="#" class="burgerMenu">
                     <img src="images/navhamburger.png">
                 </a>
                 <ul class="navItems">
-                    <li><a href="#homePage">Home</a></li>
-                    <li><a href="#aboutPage">About</a></li>
-                    <li><a href="#resumePage">Resume</a></li>
-                    <li><a href="#portfolioPage">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#homePage" class="navLink">Home</a></li>
+                    <li><a href="#aboutPage" class="navLink">About</a></li>
+                    <li><a href="#resumePage" class="navLink">Resume</a></li>
+                    <li><a href="#portfolioPage" class="navLink">Portfolio</a></li>
+                    <li><a href="#contactPage" class="navLink">Contact</a></li>
                 </ul>
+            </div>    
         </header>
         
         <!-- Home -->
@@ -87,11 +88,39 @@
         <!-- Portfolio -->
         <div id="portfolioPage">
             <h2>Portfolio</h2>
+            <h4>Check out some of my projects!</h4>
+            <div class="portfolioItems">
+                <ul>
+                    <li><a href="https://git.generalassemb.ly/ryanmoon19/SEIR-Renaissance/blob/fa07ebc54aeb8ee9b931019d939e18a85c53c9d3/unit_1/u1d06/homework/objects.js"><img src="images/technology.png"></a>Project 1</li>
+                    <li><a href="https://git.generalassemb.ly/ryanmoon19/SEIR-Renaissance/blob/816535ac4bb8d86ad16eb11b8b604f6e50878306/unit_1/u1d05/homework/app%20copy.js"><img src="images/technology.png"></a>Project 2</li>
+                    <li><a href="https://git.generalassemb.ly/ryanmoon19/SEIR-Renaissance/blob/9c33abfa9d46675910329193dd691936f0e2027c/unit_1/u1d07/student_labs/spacebattle/apps.js"><img src="images/technology.png"></a>project 3</li>
+                </ul>
+            </div>
         </div>
 
-
         <!-- Contact -->
-
+        <footer id="contactPage">
+            <h2>Contact Me</h2>
+            <div class="contactBox">
+                <div class="contactInfo">
+                    <p>ryanhmoon11@gmail.com</p>
+                    <p>213.393.5399</p>
+                </div>
+                <div class="socialMediaIcons">
+                    <a href="https://www.facebook.com/"><img src="images/facebooklogo.png"></a>
+                    <a href="https://git.generalassemb.ly/ryanmoon19"><img src="images/github.png"></a>
+                    <a href="https://www.linkedin.com/"><img src="images/linkedinlogo.png"></a>
+                </div>
+            </div>
+            <div class="emailBox">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name"></input>
+                    <input type="email" name="Email" placeholder="Your Email"></input>
+                    <textarea name="Message" rows="2" placeholder="Message"></textarea>
+                    <button type="submit" class="btn">submit</button>
+                </form>
+            </div>
+        </footer>
     </body>
 </html>
 

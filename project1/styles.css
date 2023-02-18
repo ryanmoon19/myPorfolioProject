@@ -3,9 +3,7 @@
   margin: 0;
 
 }
-body{
 
-}
 header{
   position:sticky;
   display: flex;
@@ -221,7 +219,6 @@ form input, form textarea{
   opacity: 1;
 }
 
-
 @media(max-width: 768px){
   .hamburger{
     display: block;
@@ -246,4 +243,6 @@ form input, form textarea{
   .nav-menu.active{
     left: 0;
   }
+
+  .
 }

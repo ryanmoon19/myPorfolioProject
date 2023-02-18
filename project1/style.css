@@ -20,16 +20,11 @@ body{
     opacity: 70%;
 }
 
-.hamburgerNav{
-    display: flex;
-    justify-content: space-between;
-}
-
 .navItems{
     display: none;
     position: absolute;
-    margin-left: 70%;
-    margin-top: 10%;
+    margin-left: 68%;
+    margin-top: -10px;
     width: 80px;
     height: 120px;
     left: 30px;
@@ -42,8 +37,12 @@ body{
     font-size: 15px;
 }
 
+.navLink:hover{
+    color: red;
+}
 
 .burgerMenu img{
+    margin-left: 310px;
     width: 40px;
     height: 40px;
 }
@@ -112,4 +111,133 @@ body{
 /* Portfolio */
 #portfolioPage {
     margin-top: 20%;
+}
+
+#portfolioPage h4{
+    font-size: 15px;
+}
+
+.portfolioItems li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5%;
+}
+
+.portfolioItems ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10%;
+}
+
+.portfolioItems img{
+    width: 70px;
+}
+
+/* contact page */
+#contactPage{
+    margin-top: 20%;
+}
+
+.contactInfo {
+    font-size: 13px;
+}
+
+.contactBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialMediaIcons{
+    align-self: flex-end;
+}
+
+.socialMediaIcons img{
+    margin-top: 30px;
+    width: 30px;
+    padding: 0px 10px;
+    transition: transform 0.5s;
+}
+
+.socialMediaIcons img:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.emailBox button{
+    color: black;
+}
+
+@media(min-width: 760px){
+
+    .burgerMenu {
+        display: none;
+    }
+    
+
+    .navItems{
+        display: flex;
+        padding: 0px;
+    }
+
+    #homePage h1{
+        font-size: 60px;
+    }
+
+    #homePage h4{
+        margin-top: 0%;
+    }
+
+    
+
+    #aboutPage h2{
+        margin-top: 15%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .aboutMeInfo {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .aboutMeInfo img {
+        margin-right: 10%;
+        width: 
+    }
+
+    .aboutMeInfo p{
+        margin-left: 5%;
+        width: 600px;
+        font-size: 20px;
+    }
+
+    #resumePage{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .resumeContainer{
+        font-size: 20px;
+    }
+
+    .resumeContainer li{
+        list-style-type: none;;
+    }
+
+    .portfolioItems img {
+        width: 200px;
+        margin-left: 37%;
+    }
+
+    .contactBox{
+        display: block;
+    }
+
+    .emailBox{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+    }
 }
